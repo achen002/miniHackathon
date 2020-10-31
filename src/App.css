@@ -37,6 +37,10 @@
   }
 }
 
+.ui.divider > .icon {
+  height: 45px;
+}
+
 .about-text {
   font-size: 20px;
 }
@@ -63,9 +67,18 @@ p {
 }
 
 .ui.massive.button {
-  margin-left: 50px;
+  margin-left: 100px;
+  height: 50px;
+  width: 232px;
+  background-color: rgba(251, 169, 0, 0.64);
+  box-shadow: 0 5px 10px 0 #686868;
 }
 
 .icon {
-  size: 50px;
+  size: 46px;
+}
+
+.about-img {
+  width: 450px;
+  height: 400px;
 }
